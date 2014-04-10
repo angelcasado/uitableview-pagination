@@ -19,6 +19,13 @@
 		0B915EA818F5C3FB00AE3627 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B915E9018F5C3FB00AE3627 /* UIKit.framework */; };
 		0B915EB018F5C3FB00AE3627 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B915EAE18F5C3FB00AE3627 /* InfoPlist.strings */; };
 		0B915EB218F5C3FB00AE3627 /* ArrayDataSourceExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B915EB118F5C3FB00AE3627 /* ArrayDataSourceExampleTests.m */; };
+		0B915EBD18F5C40B00AE3627 /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B915EBC18F5C40B00AE3627 /* ArrayDataSource.m */; };
+		0B915EC218F5C44100AE3627 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B915EC018F5C44100AE3627 /* MainViewController.m */; };
+		0B915EC318F5C44100AE3627 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B915EC118F5C44100AE3627 /* MainViewController.xib */; };
+		0B915EC718F5C8B000AE3627 /* Number.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B915EC618F5C8B000AE3627 /* Number.m */; };
+		0B915ECB18F5D1AC00AE3627 /* NumbersArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B915ECA18F5D1AC00AE3627 /* NumbersArrayDataSource.m */; };
+		0B915ED018F5D98B00AE3627 /* NumberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B915ECE18F5D98B00AE3627 /* NumberCell.m */; };
+		0B915ED118F5D98B00AE3627 /* NumberCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B915ECF18F5D98B00AE3627 /* NumberCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,18 @@
 		0B915EAD18F5C3FB00AE3627 /* ArrayDataSourceExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArrayDataSourceExampleTests-Info.plist"; sourceTree = "<group>"; };
 		0B915EAF18F5C3FB00AE3627 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0B915EB118F5C3FB00AE3627 /* ArrayDataSourceExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSourceExampleTests.m; sourceTree = "<group>"; };
+		0B915EBB18F5C40B00AE3627 /* ArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayDataSource.h; sourceTree = "<group>"; };
+		0B915EBC18F5C40B00AE3627 /* ArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSource.m; sourceTree = "<group>"; };
+		0B915EBF18F5C44100AE3627 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0B915EC018F5C44100AE3627 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0B915EC118F5C44100AE3627 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		0B915EC518F5C8B000AE3627 /* Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Number.h; sourceTree = "<group>"; };
+		0B915EC618F5C8B000AE3627 /* Number.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Number.m; sourceTree = "<group>"; };
+		0B915EC918F5D1AC00AE3627 /* NumbersArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumbersArrayDataSource.h; sourceTree = "<group>"; };
+		0B915ECA18F5D1AC00AE3627 /* NumbersArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumbersArrayDataSource.m; sourceTree = "<group>"; };
+		0B915ECD18F5D98B00AE3627 /* NumberCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberCell.h; sourceTree = "<group>"; };
+		0B915ECE18F5D98B00AE3627 /* NumberCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberCell.m; sourceTree = "<group>"; };
+		0B915ECF18F5D98B00AE3627 /* NumberCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumberCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				0B915E9218F5C3FB00AE3627 /* ArrayDataSourceExample */,
+				0B915E9318F5C3FB00AE3627 /* Supporting Files */,
 				0B915EAB18F5C3FB00AE3627 /* ArrayDataSourceExampleTests */,
 				0B915E8B18F5C3FB00AE3627 /* Frameworks */,
 				0B915E8A18F5C3FB00AE3627 /* Products */,
@@ -107,10 +127,11 @@
 		0B915E9218F5C3FB00AE3627 /* ArrayDataSourceExample */ = {
 			isa = PBXGroup;
 			children = (
-				0B915E9B18F5C3FB00AE3627 /* AppDelegate.h */,
-				0B915E9C18F5C3FB00AE3627 /* AppDelegate.m */,
-				0B915E9E18F5C3FB00AE3627 /* Images.xcassets */,
-				0B915E9318F5C3FB00AE3627 /* Supporting Files */,
+				0B915EBE18F5C41400AE3627 /* ArrayDataSource */,
+				0B915ECC18F5D93D00AE3627 /* Cells */,
+				0B915EC418F5C82B00AE3627 /* Models */,
+				0B915ED318F6186500AE3627 /* Views */,
+				0B915ED218F6185B00AE3627 /* Controllers */,
 			);
 			path = ArrayDataSourceExample;
 			sourceTree = "<group>";
@@ -118,12 +139,16 @@
 		0B915E9318F5C3FB00AE3627 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0B915E9B18F5C3FB00AE3627 /* AppDelegate.h */,
+				0B915E9C18F5C3FB00AE3627 /* AppDelegate.m */,
+				0B915E9E18F5C3FB00AE3627 /* Images.xcassets */,
 				0B915E9418F5C3FB00AE3627 /* ArrayDataSourceExample-Info.plist */,
 				0B915E9518F5C3FB00AE3627 /* InfoPlist.strings */,
 				0B915E9818F5C3FB00AE3627 /* main.m */,
 				0B915E9A18F5C3FB00AE3627 /* ArrayDataSourceExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = ArrayDataSourceExample;
 			sourceTree = "<group>";
 		};
 		0B915EAB18F5C3FB00AE3627 /* ArrayDataSourceExampleTests */ = {
@@ -142,6 +167,53 @@
 				0B915EAE18F5C3FB00AE3627 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B915EBE18F5C41400AE3627 /* ArrayDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				0B915EBB18F5C40B00AE3627 /* ArrayDataSource.h */,
+				0B915EBC18F5C40B00AE3627 /* ArrayDataSource.m */,
+			);
+			name = ArrayDataSource;
+			sourceTree = "<group>";
+		};
+		0B915EC418F5C82B00AE3627 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0B915EC518F5C8B000AE3627 /* Number.h */,
+				0B915EC618F5C8B000AE3627 /* Number.m */,
+				0B915EC918F5D1AC00AE3627 /* NumbersArrayDataSource.h */,
+				0B915ECA18F5D1AC00AE3627 /* NumbersArrayDataSource.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0B915ECC18F5D93D00AE3627 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0B915ECD18F5D98B00AE3627 /* NumberCell.h */,
+				0B915ECE18F5D98B00AE3627 /* NumberCell.m */,
+				0B915ECF18F5D98B00AE3627 /* NumberCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		0B915ED218F6185B00AE3627 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B915EBF18F5C44100AE3627 /* MainViewController.h */,
+				0B915EC018F5C44100AE3627 /* MainViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0B915ED318F6186500AE3627 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0B915EC118F5C44100AE3627 /* MainViewController.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +291,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B915ED118F5D98B00AE3627 /* NumberCell.xib in Resources */,
 				0B915E9718F5C3FB00AE3627 /* InfoPlist.strings in Resources */,
+				0B915EC318F5C44100AE3627 /* MainViewController.xib in Resources */,
 				0B915E9F18F5C3FB00AE3627 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +313,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B915EBD18F5C40B00AE3627 /* ArrayDataSource.m in Sources */,
 				0B915E9D18F5C3FB00AE3627 /* AppDelegate.m in Sources */,
 				0B915E9918F5C3FB00AE3627 /* main.m in Sources */,
+				0B915EC218F5C44100AE3627 /* MainViewController.m in Sources */,
+				0B915EC718F5C8B000AE3627 /* Number.m in Sources */,
+				0B915ED018F5D98B00AE3627 /* NumberCell.m in Sources */,
+				0B915ECB18F5D1AC00AE3627 /* NumbersArrayDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
